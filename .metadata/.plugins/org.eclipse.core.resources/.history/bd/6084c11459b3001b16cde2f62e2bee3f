@@ -23,7 +23,7 @@ import com.example.demo.repository.CategoriaRepository;
 /**
  * <p> Classe da resource Categoria com métodos Listar, 
  * pesquisar por id, inserir e deletar registros
- *  na tabela de categorias </p>
+ *  na table de catgorias </p>
  * 
  * @Date 12/05/2021
  * @author Rafael Madakis
