@@ -2,7 +2,6 @@ package com.example.demo.resource;
 
 import java.net.URI;
 import java.util.List;
-import java.util.Optional;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -20,9 +19,8 @@ import com.example.demo.model.Categoria;
 import com.example.demo.repository.CategoriaRepository;
 
 /**
- * <p> Classe da resource Categoria com métodos Listar, 
- * pesquisar por id, inserir e deletar registros
- *  na table de catgorias </p>
+ * Classe da resource Categoria com métodos Listar, 
+ * pesquisar por id, inserir e * deletar
  * 
  * @Date 12/05/2021
  * @author Rafael Madakis
@@ -38,7 +36,7 @@ public class CategoriaResource {
 
 	/**
 	 * <p>
-	 * Método para listar todos os registros da tabela de categorias </p>
+	 * Método para listar todos os registros da tabela de categorias </P
 	 * 
 	 * @return categoriaRepository.findAll()
 	 */
@@ -50,7 +48,7 @@ public class CategoriaResource {
 	/**
 	 * <p>
 	 * Método para criar novos registros na table de categorias
-	 * </p>
+	 * <p>
 	 * 
 	 * @param categoria
 	 * @param response
@@ -71,17 +69,14 @@ public class CategoriaResource {
 	/**
 	 * <p>
 	 * Método para buscar por código determinado registro na tabela de categorias
-	 * </p>
+	 * <p>
 	 * 
 	 * @param codigo
-	 * @return categoria.isPresent() ? 
-	            ResponseEntity.ok(categoria.get()) : ResponseEntity.notFound().build();
+	 * @return categoriaRepository.findById(codigo).orElse(null)
 	 */
 	@GetMapping("/{codigo}")
-	public ResponseEntity<Categoria> buscarPeloCodigo(@PathVariable Long codigo) {
-	    Optional<Categoria> categoria = this.categoriaRepository.findById(codigo);
-	    return categoria.isPresent() ? 
-	            ResponseEntity.ok(categoria.get()) : ResponseEntity.notFound().build();
+	public Categoria buscarPeloCodigo(@PathVariable Long codigo) {
+		return categoriaRepository.findById(codigo).orElse(null);
 	}
 
 }
