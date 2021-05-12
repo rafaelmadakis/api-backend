@@ -1,0 +1,27 @@
+
+package com.example.demo.model;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "lancamento" )
+public class Lancamento {
+	
+	private Long codigo;
+	private String descricao;
+	
+	private LocalDate dataVencimento;
+	
+	private LocalDate dataPagamento;
+	
+	private BigDecimal valor;
+	
+	private String observacao;
+	
+	private TipoLancamento tipo;
+
+}
