@@ -1,0 +1,14 @@
+/**
+ * @Author: Rafael Madakis
+ * com.example.demo.exceptionhandler
+ * demo 
+ */
+package com.example.demo.exceptionhandler;
+
+/**
+ * @author rafae
+ *
+ */
+public class FinancaExceptionHandler {
+
+}
