@@ -110,4 +110,23 @@ public class PessoaResource {
 		  return this.pessoaRepository.save(pessoaSalva);
 	}
 	
+	
+	/**
+	 * <p> Método para criar lancamentos na 
+	 * entidade {@link Lancamento}</p>
+	 * 
+	 * @param lancamento
+	 * @param response
+	 * @return
+	 */
+	@PostMapping
+	public ResponseEntity<Lancamento> criar(@Valid @RequestBody Lancamento lancamento, HttpServletResponse response) {
+		Lancamento lancamentoSalvo = lancamentoRepository.save(lancamento);
+		publisher.publishEvent(new RecursoCriadoEvent(this, response, lancamentoSalvo.getCodigo()));
+		return ResponseEntity.status(HttpStatus.CREATED).body(lancamentoSalvo);
+	}
+	
+	
+
+	
 }
