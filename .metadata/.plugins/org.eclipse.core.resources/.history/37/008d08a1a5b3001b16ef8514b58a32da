@@ -49,7 +49,7 @@ public class CategoriaResource {
 	 * @return categoriaRepository.findAll()
 	 */	
 	@GetMapping
-	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_CATEGORIA') and #oauth2.hasScope('read')")
+	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_CATEGORIA')")
 	public List<Categoria> listar() {
 		return categoriaRepository.findAll();
 	}
@@ -64,7 +64,7 @@ public class CategoriaResource {
 	 * @return ResponseEntity.created(uri).body(categoriaSalva)
 	 */
 	@PostMapping
-	@PreAuthorize("hasAuthority('ROLE_CADASTRAR_CATEGORIA')  and #oauth2.hasScope('write')")
+	@PreAuthorize("hasAuthority('ROLE_CADASTRAR_CATEGORIA')")
 	public ResponseEntity<Categoria> criar(@Valid @RequestBody Categoria categoria, HttpServletResponse response) {
 		Categoria categoriaSalva = categoriaRepository.save(categoria);		
 		publisher.publishEvent(new RecursoCriadoEvent(this, response, categoriaSalva.getCodigo()));	
@@ -82,7 +82,7 @@ public class CategoriaResource {
 	            ResponseEntity.ok(categoria.get()) : ResponseEntity.notFound().build();
 	 */
 	@GetMapping("/{codigo}")
-	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_CATEGORIA') and #oauth2.hasScope('read')")
+	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_CATEGORIA')")
 	public ResponseEntity<Categoria> buscarPeloCodigo(@PathVariable Long codigo) {
 	    Optional<Categoria> categoria = this.categoriaRepository.findById(codigo);
 	    return categoria.isPresent() ? 
