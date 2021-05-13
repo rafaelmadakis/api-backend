@@ -1,0 +1,14 @@
+/**
+ * @Author: Rafael Madakis
+ * com.example.demo.config
+ * demo 
+ */
+package com.example.demo.config;
+
+/**
+ * @author rafae
+ *
+ */
+public class AuthorizationServerConfig {
+
+}
