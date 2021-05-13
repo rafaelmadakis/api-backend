@@ -22,9 +22,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.event.RecursoCriadoEvent;
-import com.example.demo.model.Lancamento;
 import com.example.demo.model.Pessoa;
-import com.example.demo.repository.LancamentoRepository;
 import com.example.demo.repository.PessoaRepository;
 
 /**
@@ -42,9 +40,6 @@ public class PessoaResource {
 
 	@Autowired
 	private PessoaRepository pessoaRepository;
-	
-	@Autowired
-	private LancamentoRepository lancamentoRepository;
 	
 	@Autowired
 	private ApplicationEventPublisher publisher;
@@ -92,7 +87,8 @@ public class PessoaResource {
 	
 	
 	/**
-	 * <p> Método para atualizar todos os dados (não é atualização parcial)
+	 * <p> Método para atualizar todos os dados 
+	 * (não é atualização parcial)
 	 *  de pessoa da entidade {@link Pessoa}</p>
 	 *  
 	 * @param codigo

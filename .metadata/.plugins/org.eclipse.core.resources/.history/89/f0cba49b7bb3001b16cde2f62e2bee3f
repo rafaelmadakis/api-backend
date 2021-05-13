@@ -1,0 +1,14 @@
+/**
+ * @Author: Rafael Madakis
+ * com.example.demo.repository.filter
+ * demo 
+ */
+package com.example.demo.repository.filter;
+
+/**
+ * @author rafae
+ *
+ */
+public class LancamentoFilter {
+
+}

@@ -1,0 +1,19 @@
+package com.example.demo.config;
+
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+/**
+ * <p> Classe para acesso
+ * com autenticação basic </p>
+ * 
+ * @Date 12/05/2021
+ * @author Rafael Madakis
+ *
+ */
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+	
+	
+
+}

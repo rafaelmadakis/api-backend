@@ -1,0 +1,26 @@
+package com.example.demo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.model.Lancamento;
+import com.example.demo.model.Pessoa;
+import com.example.demo.resource.PessoaResource;
+
+@Service
+public class LancamentoService {
+	
+	@Autowired
+	private PessoaResource pessoaResource;
+
+	/**
+	 * @param lancamento
+	 * @return
+	 */
+	public Lancamento salvar(Lancamento lancamento) {
+//		Pessoa pessoa = pessoaResource.buscarPeloCodigo(lancamento.getPessoa().getCodigo());
+		
+		return null;
+	}
+
+}
