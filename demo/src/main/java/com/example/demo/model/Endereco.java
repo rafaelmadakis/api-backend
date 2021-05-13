@@ -5,7 +5,7 @@ import javax.persistence.Embeddable;
 
 /**
  * Entidade endereço(embeddable)
- * @Date 12/05/2021
+ * @since 12/05/2021
  * @author Rafael Madakis
  * Date: 12/05/2021
  * @version 1.0

@@ -20,7 +20,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 /**
  * Entidade {@link Lancamento}
- * @Date 12/05/2021
+ * @since 12/05/2021
  * 
  * @author Rafael Madakis
  *

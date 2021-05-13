@@ -3605,3 +3605,132 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-12 23:56:49.958
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:09:27.552
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:11:48.815
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:14:06.633
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:14:28.626
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:15:05.506
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:15:29.015
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-05-13 00:18:16.692
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:18:20.989
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:20:24.707
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:30:14.708
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:32:37.471
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:32:50.241
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:34:20.037
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:34:24.171
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CTNopanx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:34:24.172
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CTNopanx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:34:24.173
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:34:24.174
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CTNopanx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:35.917
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:35.917
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@45382749[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=555)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:35.918
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.202
+!MESSAGE Boot LS startup time from start to initialized: 3282ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.353
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KKheItsfisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.355
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.355
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.356
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.357
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.357
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KKheItsf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.367
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.374
+!MESSAGE buffering callback sts4.classpath.KKheItsf demo false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.375
+!MESSAGE executing callback sts4.classpath.KKheItsf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 00:35:39.904
+!MESSAGE executing callback sts4.classpath.KKheItsf SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:44:14.393
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:47:06.417
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:50:22.524
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-05-13 00:50:38.366
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:50:48.624
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:52:17.157
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final

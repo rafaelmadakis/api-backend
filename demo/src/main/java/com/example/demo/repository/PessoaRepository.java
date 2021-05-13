@@ -7,7 +7,7 @@ import com.example.demo.model.Pessoa;
 /**
  * Interface de repositório para
  * a entidade {@link Pessoa}
- * @Date 12/05/2021
+ * @since 12/05/2021
  * @author Rafael Madakis
  *
  */

@@ -29,7 +29,7 @@ import com.example.demo.repository.PessoaRepository;
  * <p>Classe para recurso de {@link Pessoa} com
  * métodos para criar e buscar pelo Id</p>
  * 
- * @Date 12/05/2021
+ * @since 12/05/2021
  * @author Rafael Madakis
  * @version 1.0
  *

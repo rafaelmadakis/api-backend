@@ -7,7 +7,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 /**
  *<p> Classe da entidade de Lancamento Filter</p>
  *
- * @Date 12/05/2021
+ * @since 12/05/2021
  * @author Rafael Madakis
  *
  */

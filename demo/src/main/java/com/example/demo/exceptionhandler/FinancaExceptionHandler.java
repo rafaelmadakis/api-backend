@@ -27,7 +27,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
  *  quando usuário tentar passar alguma 
  *  propriedade desconhecida </p>
  * 
- * @Date 12/05/2021
+ * @since 12/05/2021
  * @author Rafael Madakis
  * @version 1.0
  * 

@@ -26,7 +26,7 @@ import com.example.demo.repository.CategoriaRepository;
  * pesquisar por id, inserir e deletar registros
  *  na tabela de categorias </p>
  * 
- * @Date 12/05/2021
+ * @since 12/05/2021
  * @author Rafael Madakis
  * @version 1.0
  * 
@@ -46,7 +46,7 @@ public class CategoriaResource {
 	 * Método para listar todos os registros da tabela de categorias </p>
 	 * 
 	 * @return categoriaRepository.findAll()
-	 */
+	 */	
 	@GetMapping
 	public List<Categoria> listar() {
 		return categoriaRepository.findAll();

@@ -20,7 +20,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
  * <p>Classe responsável popr guardar o refresh token
  * em um Cookie</p>
  * 
- * @Date 12/05/2021
+ * @since 12/05/2021
  * @author Rafael Madakis
  *
  */

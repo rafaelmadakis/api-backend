@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull;
 
 /**
  * Entidade {@link Pessoa}
- * @Date 12/05/2021
+ * @since 12/05/2021
  * @author Rafael Madakis
  * @version 1.0
  *

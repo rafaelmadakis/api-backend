@@ -15,7 +15,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
  * Classe de configuração para acesso com autenticação basic, OAuth
  * </p>
  * 
- * @Date 12/05/2021
+ * @since 12/05/2021
  * @author Rafael Madakis
  *
  */

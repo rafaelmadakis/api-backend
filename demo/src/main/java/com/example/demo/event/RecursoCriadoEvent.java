@@ -14,7 +14,7 @@ import com.example.demo.resource.PessoaResource;
  * @see PessoaResource método criar, buscar po Id
  * @see CategoriaResource método criar, listar, listar por Id
  * 
- * Date 12/05/2021 
+ * @since 12/05/2021 
  * @author Rafael Madakis
  * @version 1.0
  *
