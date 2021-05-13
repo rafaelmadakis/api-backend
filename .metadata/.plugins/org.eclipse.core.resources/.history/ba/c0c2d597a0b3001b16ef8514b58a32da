@@ -1,0 +1,14 @@
+/**
+ * @Author: Rafael Madakis
+ * com.example.demo.repository
+ * demo 
+ */
+package com.example.demo.repository;
+
+/**
+ * @author rafae
+ *
+ */
+public interface UsuarioRepository {
+
+}

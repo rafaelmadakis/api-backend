@@ -3734,3 +3734,132 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 00:52:17.157
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jface 2 0 2021-05-13 01:00:12.019
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-05-13 01:00:12.019
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e295bc0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fa29d28,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:00:22.591
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KKheItsf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:00:22.592
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KKheItsf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:00:22.592
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:00:22.593
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KKheItsf => OK
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:01:55.755
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:01:55.990
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:01:55.991
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@45382749[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=555)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:01:55.992
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.353
+!MESSAGE Boot LS startup time from start to initialized: 4354ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.841
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cUjGGyOwisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.841
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.842
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.843
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.843
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.844
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cUjGGyOw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.856
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.861
+!MESSAGE buffering callback sts4.classpath.cUjGGyOw demo false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:00.862
+!MESSAGE executing callback sts4.classpath.cUjGGyOw 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-13 01:02:01.493
+!MESSAGE executing callback sts4.classpath.cUjGGyOw SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:03:16.099
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:04:16.687
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:04:20.059
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:05:28.993
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:06:10.999
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:06:28.995
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:08:28.305
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:08:30.467
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:10:05.570
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:10:43.566
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:11:55.826
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:14:58.715
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:15:24.494
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:15:51.272
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:16:08.214
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:16:10.546
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2021-05-13 01:19:22.257
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.30.Final

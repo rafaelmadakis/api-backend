@@ -9,7 +9,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 
 /**
  * <p>
- * Classe de configuração para acesso com autenticação OAuth
+ * Classe de configuração para acesso com autenticação basic, OAuth
  * </p>
  * 
  * @since 12/05/2021

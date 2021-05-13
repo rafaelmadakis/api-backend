@@ -35,12 +35,11 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 	
 	@Override
 	public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
-	    endpoints
-	        .tokenStore(tokenStore())
-	        .accessTokenConverter(this.accessTokenConverter())
-	        .reuseRefreshTokens(false)
-	        .userDetailsService(this.userDetailsService)
-	        .authenticationManager(this.authenticationManager);
+		endpoints.tokenStore(tokenStore())
+		.accessTokenConverter(accessTokenConverter())
+		.reuseRefreshTokens(false)
+		.authenticationManager(authenticationManager);
+	
 	}
 	
 	@Bean
